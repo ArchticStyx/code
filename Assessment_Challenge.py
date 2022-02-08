@@ -14,6 +14,7 @@ gradeF = 59
 full_name = (first + last)
 full_name_cap = (first.title() + " " + last.title())
 
+#try print("Your quiz grades are, " + str(gradeA) + ", " + str(gradeB) + ", "......
 print(f"Your quiz grades are, {gradeA}, {gradeB}, {gradeC}, {gradeD}, {gradeE}, {gradeF}.")
 gpa = (gradeA + gradeB + gradeC + gradeD + gradeE + gradeF) / 6
 print(f"{full_name_cap}'s grade point average is {gpa}")
